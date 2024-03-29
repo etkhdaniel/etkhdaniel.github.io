@@ -1291,4 +1291,63 @@ input[type="text"] {
   opacity: 0;
 }
 
+.projects {
+  background-color: #000000; /* Matching the middle section background */
+  padding: 20px;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: xx-large;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px; /* Spacing between title and content */
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns for projects */
+  grid-gap: 20px;
+}
+
+.card {
+  background-color: grey; /* Matching the card style */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight hover effect */
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; /* To match the card's border-radius */
+}
+
+.card h3 {
+  font-family: 'Lato', sans-serif;
+  color: #ffffff; /* Text color */
+  margin-top: 10px;
+}
+
+.card p {
+  font-family: 'Lato', sans-serif;
+  color: #ffffff; /* Text color */
+  font-size: smaller;
+}
+
+.view-case-study-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
 /*# sourceMappingURL=style.css.map */
